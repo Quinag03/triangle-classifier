@@ -37,6 +37,7 @@ An equilateral triangle cannot be right because all of its angles are 60 degrees
 ## Equivalence Classes and Boundaries
 
 | Category | Example | Expected result |
+|---|---|---|
 | Non-positive side length | `(0, 1, 1)` | `Invalid` |
 | Triangle-inequality failure | `(1, 1, 3)` | `Invalid` |
 | Degenerate boundary | `(1, 2, 3)` | `Invalid` |
@@ -48,6 +49,7 @@ An equilateral triangle cannot be right because all of its angles are 60 degrees
 ## Copilot Review Log
 
 | Test | Copilot-suggested? | Decision | Why |
+|---|---|---|---|
 | `test_equilateral` | Yes | Kept | It correctly checks that three equal valid sides return `Equilateral`. |
 | `test_isosceles` | Yes | Kept | It checks an isosceles triangle in all three side orders. |
 | `test_scalene` | Yes | Edited | Copilot used `(3, 4, 5)`, which is a right triangle and returns `Right Scalene`; I changed it to `(2, 3, 4)`. |
