@@ -65,4 +65,4 @@ An equilateral triangle cannot be right because all of its angles are 60 degrees
 
 ## AI-Use Disclosure
 
-GitHub Copilot autocomplete was used to draft the Part 2 unit tests. I reviewed every suggestion against the assignment specification and corrected Copilot's incorrect scalene test. ChatGPT was used for step-by-step programming guidance and troubleshooting. I manually typed the Part 3 acceptance test without using GitHub Copilot and verified all work by running `python -m pytest -v`.
+GitHub Copilot autocomplete was used to draft the Part 2 unit tests. I reviewed every suggestion against the assignment specification and corrected Copilot's incorrect scalene test. ChatGPT was used for programming guidance and troubleshooting. I manually typed the Part 3 acceptance test without using GitHub Copilot and verified all work by running `python -m pytest -v`.
